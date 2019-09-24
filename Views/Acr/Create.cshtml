@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "Save song data";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Save song data</h2>
+Insert of entity into @ViewBag.TableName @(ViewBag.Result == 204 ? "succeeded" : "failed"): @ViewBag.ResultDetails
+
